@@ -1,0 +1,29 @@
+{
+  "name": "Webserver",
+  "version": "1.0.0",
+  "description": "Primer vewbserver",
+  "main": "first_app.js",
+  "scripts": {
+    "start": "node server.js",
+    "nodemon": "nodemon server.js -e js,html,hbs,css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luisfmar/webserver.git"
+  },
+  "keywords": [
+    "webserver"
+  ],
+  "author": "Luis Martín",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.0",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "standard": "^14.3.3"
+  }
+}
